@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <title>SYG</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open-Intelligence/Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+            overflow-y: auto;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Bilder in der Mitte ausrichten */
+            margin: 20px;
+        }
+
+        figure {
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column; /* Flex-Container für Bild und Text */
+            align-items: center; /* Elemente in der Mitte des Flex-Containers ausrichten */
+            text-align: center; /* Text im Container zentrieren */
+        }
+
+        img {
+            width: 400px;
+            display: block;
+        }
+
+        h2 {
+            font-family:'Courier New', Courier, monospace;
+            font-size: 30px;
+            margin-top: 0;
+            color: white;
+        }
+
+        p {
+            margin: 25px 0;
+            font-size: 20px;
+            font-weight: 300;
+            font-family: cursive; 
+            line-height: 25px;
+            color: white;
+            
+        }
+
+        .gif {
+            width: 100%;
+            min-height: 100vh;
+            background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Trash_Gang.gif);
+            background-size: cover;
+            background-position: center;
+            margin-bottom: -20px;
+        }
+    </style>
+</head>
+<body style="margin: 0;">
+
+    <div class="gif">
+        <div class="navbar">
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Discord</a></li>
+            </ul>
+        </div>
+
+        <div class="image-container">
+            <figure>
+                <h2>SYG_Một</h2>
+                <img src="SYG Mot.jpg" alt="Bild 1">
+                <figcaption>
+                    <p>Mess with me lil one ;)</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <h2>SYG_Hai</h2>
+                <img src="SYG 88.jpg" alt="Bild 2">
+                <figcaption>
+                    <p>Skid's trying to scare me lmfao</p>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <h2>SYG_Ba</h2>
+                <img src="SYG_Ba.png" alt="Bild 3">
+                <figcaption>
+                    <p>Stop dickriding LMFAO</p>
+                </figcaption>
+            </figure>
+
+        </div>
+    </div>
+</body>
+</html>
